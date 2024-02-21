@@ -1,0 +1,308 @@
+@media (min-width: 993px) and (max-width: 1382px) {
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    flex-flow: row wrap;
+    padding: 16px 0px;
+  }
+  header .logo h3{
+    margin-bottom: 4px;
+    padding-left: 70px;
+  }
+  header .right-side {
+    padding-right: 76px;
+  }
+  header nav a{
+    margin: 0px 4px;
+  }
+  header .right-side i{
+    margin-left: 30px;
+  }
+  .box-1 {
+    flex-flow: row wrap;
+  }
+  .box-1 .box-text{
+    margin: 19px 16px;
+  }
+  .box-1 .box-text h1{
+    width: 50%;
+  }
+  .box-1 .box-image{
+    width: 60%;
+  }
+  .box-1 .box-image img{
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  .box-2 .cards{
+    top: 410px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 1%;
+  }
+  .box-2 .cards .card{
+    width: 316px;
+    height: 310px;
+  }
+  .box-2 .cards .card .icon {
+    width: 88px;
+    height: 88px;
+    padding: 12px;
+  }
+  .box-2 .cards .card h3 {
+    font-size: 22px;
+  }
+  .box-2 .cards .card p{
+    font-size: 16px;
+  }
+  .box-3{
+    margin-top: 400px;
+    padding-top: 145px;
+    padding-right: 114px;
+    padding-left: 123px;
+    padding-bottom: 100px;
+    flex-flow: column wrap;
+  }
+  .box-3 hr{
+    margin-left: 45%;
+  }
+  .box-3 p{
+    font-size: 17px;
+  }
+  
+  .box-4{
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-bottom: 100px;
+  }
+  .box-4 .left{
+    width: 57%;
+    padding-left: 5%;
+  }
+  .box-4 .left img:first-child{
+    height: 592px;
+    width: 508px;
+  }
+  .box-4 .left img:last-child{
+    top: -17px;
+    left: 60%;
+    width: 198px;
+    height: 193px;
+  }
+  .box-4 .right{
+    flex-flow:  column wrap;
+    justify-content: initial;
+    width: 47%;
+  }
+  .box-4 .right .top{
+    margin-bottom: 30px;
+  }
+  .box-4 .right .top h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .box-4 .right .top p{
+    font-size: 16px;
+    width: 86%;
+    margin-left: 5%;
+  }
+  .box-4 .right .bottom {
+    flex-flow: column wrap;
+  }
+  .box-4 .right .bottom .bottom-left{
+    order: 1;
+  }
+  .box-4 .right .bottom .image{
+    order: 0;
+  }
+  .box-4 .right .bottom .image img{
+    width: 292px;
+    height: 153px;
+    margin-left: 20%;
+  }
+  .box-4 .right .bottom .bottom-left p{
+    line-height: 24px;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .box-4 .right .bottom a{
+    margin-left: 33%;
+  }
+  .box-5 a{
+    margin-left: 41%;
+  }
+  .box-6{
+    justify-content: space-between;
+  }
+  .box-6 .left{
+    width: 40%;
+    padding-left: 4%;
+    margin-right: 3%;
+  }
+  .box-6 .left h3{
+    font-size: 34px;
+  }
+  .box-6 .left p{
+    font-size: 18px;
+  }
+  .box-6 .right{
+    width: 46%;
+  }
+  .box-6 .right img:first-child{
+    max-width: 490px;
+    height: 553px;
+  }
+  .box-6 .right img:last-child{
+    top: 71%;
+    left: -15%;
+    width: 193px;
+    height: 195px;
+  }
+  .box-7{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .box-7 .cards{
+    flex-flow: row wrap;
+  }
+  .box-7 .cards .card{
+    width: 32%;
+    height: 315px;
+  }
+  .box-7 .cards .card h5{
+    font-size: 21px;
+  }
+  .box-7 .cards .card p{
+    font-size: 17px;
+  }
+  .box-8{
+    height: 1272px;
+  }
+  .box-8 p:nth-child(2){
+    width: 87%;
+    margin-left: 7%;
+  }
+  .box-8 .cards .card {
+    width: 28%;
+    height: 433px;
+    padding: 0 5px;
+  }
+  .box-8 .cards .card img{
+    width: 200px;
+  }
+  .box-8 .cards .card .icons i{
+    margin-left: 12px;
+    font-size: 17px;
+    width: 33px;
+    height: 32px;
+  }
+
+  .box-9{
+    width: 100%;
+    height: 800px;
+    padding-top: 0px;
+    justify-content: space-between;
+  }
+  .box-9 .left{
+    width: 50%;
+  }
+  .box-9 .right {
+    width: 49%;
+  }
+  .box-9 .right h2{
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .box-9 .right p{
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+  .box-9 .right form label{
+    margin-left: 0px;
+    font-size: 17px;
+  }
+  .box-9 .right form input{
+    width: 222px;
+    height: 37px;
+    padding-left: 11px;
+    font-size: 14px;
+  }
+  .box-9 .right form textarea{
+    padding-left: 6px;
+    font-size: 15px;
+    width: 83%;
+    margin-left: 10%;
+  }
+  .box-9 iframe{
+    width: 99%;
+    height: 593px;
+    margin: -71px auto;
+    margin-left: 1%;
+    border-radius: 2px;
+  }
+  footer{
+    height: 468px;
+  }
+  footer .top{
+    justify-content: space-between;
+  }
+  footer .top .logo{
+    width: 14%;
+    padding-left: 20px;
+  }
+  footer .top .logo h3{
+    font-size: 45px;
+  }
+  footer .top .hours{
+    width: 15%;
+    margin-bottom: 0px;
+  }
+  footer .top .hours .days ul:first-child li {
+    font-size: 17px;
+  }
+  footer .top .hours .days ul li {
+    font-size: 15px;
+  }
+  footer .top .locations{
+    width: 19%;
+    margin-right: -8%;
+  }
+  footer .top .locations ul li {
+    font-size: 16px;
+  }
+  footer .social-media{
+    width: 20%;
+  }
+  footer .social-media .icons{
+    margin-left: -7%;
+  }
+  footer .social-media .icons i {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-left: 6px;
+    margin-left: 8px;
+}
+  footer .top .locations h3, footer .top .hours h3, footer .top .social-media h3{
+    font-size: 21px;
+  }
+  .swiper-slide img{
+    width: 650px;
+  }
+  .swiper-button-prev{
+    margin-left: -24%;
+  }
+  .swiper-button-next{
+    margin-right: -50%;
+  }
+}
